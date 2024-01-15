@@ -1,9 +1,19 @@
 # Movie JOJA TEST By Anung Ramadhan
-Cara Install:
 
-- Git Clone
-- npm/pnpm install
-- npm/pnpm run dev
+How to install and run:
+
+Prerequisites:
+- NPM & Node.js
+- React JS
+- Git
+
+Step
+- Clone the repository
+- Navigate to the project directory
+- Install dependencies
+  - NPM/PNPM install
+- Start the development server
+  - NPM/PNPM run dev
 
 
 # React + TypeScript + Vite
