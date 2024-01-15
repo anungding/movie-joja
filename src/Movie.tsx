@@ -48,17 +48,17 @@ const Movie: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <div className="mb-4">
+      <div className="mb-4 flex items-center justify-center">
         <input
           type="text"
           placeholder="Search..."
           value={searchTerm}
           onChange={handleSearchChange}
-          className="border border-gray-300 rounded-l-md px-4 py-2 focus:outline-none focus:border-blue-500 flex-grow w-40"
+          className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 w-50"
         />
         <button
           onClick={searchTerm ? handleSearchSubmit : handleDefaultSearch}
-          className="bg-red-500 text-white rounded-r-md px-4 py-2 hover:bg-red-600"
+          className="m-2 bg-red-500 text-white rounded-md px-4 py-2 hover:bg-red-600"
         >
           {searchTerm ? "Search" : "Refresh"}
         </button>
