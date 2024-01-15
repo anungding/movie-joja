@@ -1,4 +1,9 @@
 # Movie JOJA TEST By Anung Ramadhan
+Cara Install:
+
+- Git Clone
+- npm/pnpm install
+- npm/pnpm run dev
 
 
 # React + TypeScript + Vite
